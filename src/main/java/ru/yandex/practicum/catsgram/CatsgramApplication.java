@@ -14,7 +14,8 @@ public class CatsgramApplication {
         SpringApplication.run(CatsgramApplication.class, args);
         final Gson gson = new Gson();
         final Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите JSON => ");
+        //      System.out.print("Введите JSON => ");
+        System.out.println("123");
         final String input = scanner.nextLine();
         try {
             gson.fromJson(input, Map.class);
